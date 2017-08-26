@@ -1,8 +1,11 @@
 ---
 layout: page
-title: About
+title:I'm Evan Hilgemann
 permalink: /about/
 ---
+
+![image](images/Evan.jpg)
+
 
 Some information about you!
 
