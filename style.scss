@@ -17,9 +17,8 @@ html {
   font-size: 100%;
 }
 
-
-
 body {
+  color: #333;
   font-family: $font-serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -68,8 +67,8 @@ h2 {
 }
 
 h3 {
-  font-size: 0.85rem;
-  letter-spacing: .2em;
+  font-size: .75rem;
+  letter-spacing: .3em;
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -166,12 +165,14 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 1px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: $blue;
 }
 
 .masthead {
   padding: 0px 0;
-  border-bottom: 15px solid $blue;
+    background-color: $blue;
   @include mobile {
     text-align: center;
   }
@@ -189,41 +190,17 @@ img {
 
 .site-name {
   margin: 10px;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $georgia;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  background-color: $blue;
 }
 
 
-nav {
-  float: right;
-  margin-top: 10px; // @TODO: Vertically middle align
-  font-family: $georgia;
-  font-size: 18px;
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
 
 //
 // .main
@@ -260,14 +237,15 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
   background-color: $blue;
 }
 
 footer {
-  padding: 50px 0;
+  padding: 30px 0;
   text-align: center;
 }
 

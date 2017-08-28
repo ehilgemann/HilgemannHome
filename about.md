@@ -31,7 +31,7 @@ I'm a mechanical engineer at NASA's Jet Propulsion Laboratory and a Telescope Op
 <div id="wrap">
     <div id="left_col">
         <h3>WORKING</h3>
-		<p align="justify"> My day job puts me at the interesection of research and spacecraft design. I work in a technology infusion group and focus on how to improve spaceflight systems by maturing novel technologies.</p> 
+		<p align="justify"> My day job puts me at the interesection of technology development and spacecraft design. I work in a technology infusion group and focus on how to improve spaceflight systems by maturing novel technologies.</p> 
 		
 		<br>
 		
@@ -40,7 +40,7 @@ I'm a mechanical engineer at NASA's Jet Propulsion Laboratory and a Telescope Op
     </div>
     <div id="right_col">
         <h3>OBSERVING</h3>
-		<p align="justify"> I moonlight as a telescope operator at the renouned Griffith Observatory. You can find me there once or twice a week running telescopes and educating the public on space and astronomy.</p> 
+		<p align="justify"> You can sometimes find me moonlighting as a telescope operator at the iconic Griffith Observatory. I consider it a privelidge to work with the historic Zeiss Refractor and to share the night sky with the public.</p> 
 		
 		<br>
 		
