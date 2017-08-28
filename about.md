@@ -6,49 +6,72 @@ permalink: /about/
 
 <center>
 
-<img src="images/Evan.jpg">
+<img src="images/EvanBlue.jpg">
+</center>
 
+# Hello, my name is Evan.
+I'm a mechanical engineer at NASA's Jet Propulsion Laboratory and a Telescope Operator at Griffith Observatory.
 
-
+<center>
 <style type="text/css">
 #wrap {
-   width:600px;
+   width:740px;
    margin:0 auto;
 }
 #left_col {
    float:left;
-   width:300px;
+   width:320px;
 }
 #right_col {
    float:right;
-   width:300px;
+   width:320px;
 }
 </style>
 
 <div id="wrap">
     <div id="left_col">
-        <h3> HTML Heading1 </h3>
+        <h3>WORKING</h3>
+		<p align="justify"> My day job puts me at the interesection of research and spacecraft design. I work in a technology infusion group and focus on how to improve spaceflight systems by maturing novel technologies.</p> 
+		
+		<br>
+		
+		<h3>VOLUNTEERING</h3>
+		<p align="justify"> I enjoy sharing my knowledge of space and technology with the general public and regularly give talks and to local organizations. I'm now known as "The 3D Printing Guy" at the Altadena Library, and am "The Bike Repair Guy" at the Pasadena Repair Cafe.</p> 
     </div>
     <div id="right_col">
-        <h3> HTML Heading 2 </h3>
+        <h3>OBSERVING</h3>
+		<p align="justify"> I moonlight as a telescope operator at the renouned Griffith Observatory. You can find me there once or twice a week running telescopes and educating the public on space and astronomy.</p> 
+		
+		<br>
+		
+		<h3>PLAYING</h3>
+		<p align="justify"> I spend my free time exploring the diverse wilderness of southern California. You might run into me hiking to the top of the San Gabriel Mountains, or maybe SCUBA diving on the bottom of the ocean.</p> 
     </div>
 </div>
 
 </center>
 
+
 <br>
 <br>
 <br>
-<h3>My First Heading</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<p>My first paragraph.</p>
 
-Some information about you!
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<h2 align="left"> Sound Interesting? </h2>
+<p align="left">Contact me:</p>
+[ehilge@gmail.com](mailto:ehilge@gmail.com)
