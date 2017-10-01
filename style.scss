@@ -150,14 +150,16 @@ img {
 // .masthead
 //
 
+
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
+/*Good place for formatting header on the main page*/
 .masthead {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid $lightGray;
-
+  border-top: 10px solid $lightGray;
   @include mobile {
     text-align: center;
   }
