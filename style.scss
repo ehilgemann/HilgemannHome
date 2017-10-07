@@ -158,7 +158,7 @@ img {
 /*Good place for formatting header on the main page*/
 .masthead {
   padding: 0px 0;
-  border-top: 30px solid $lightGray;
+  border-top: 30px solid rgb(90, 164, 220);
   @include mobile {
     text-align: center;
   }
