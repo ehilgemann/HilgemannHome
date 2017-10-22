@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 100%;
   padding: 0 10px;
   width: 100%;
 }
@@ -158,10 +158,13 @@ img {
 /*Good place for formatting header on the main page*/
 .masthead {
   padding: 0px 0;
-  border-top: 30px solid rgb(90, 164, 220);
+  border-top: 10px solid rgb(90, 164, 220);
   @include mobile {
     text-align: center;
   }
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 0 auto;
 }
 
 
