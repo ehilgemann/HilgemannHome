@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -8,14 +9,15 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+  
+	
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-	
+  	
 	{% include og.html %}
-	
+
 	<!-- OG data for homepage 
     <meta property="og:image" content="{{ site.url }}/images/Evanhikeblue.jpg" />
     <meta property="og:type" content="website" />
@@ -32,10 +34,12 @@
     <div class="container">
 
 	  <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <!--
+		  <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+		  -->
   <figure>
   <center>
-    <img src="{{ site.baseurl }}/images/Evanhikeblue.jpg "width="50%" height="50%">
+    <img src="{{ site.baseurl }}/images/Evanhikeblue.jpg "width="624" height="344">
   </center>
   </figure>
 <!--
@@ -63,10 +67,10 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
-		  <!-- Anything sound interesting? <a align="left" href="mailto:ehilge@gmail.com">Drop me a line.</a> -->
-		  <p align="center"> Anything sound interesting? Contact me:
+		  
+		  <p align="center"> Anything sound interesting? Contact me.
 
-			<img src="{{ site.baseurl }}/images/email.png" width="17%" height="17%" style="margin: -5px 0px">
+			<img src="{{ site.baseurl }}/images/email.png" width="219" height="25" style="margin: -5px 0px">
 		  </p>
         </footer>
       </div>
