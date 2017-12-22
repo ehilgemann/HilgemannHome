@@ -121,8 +121,7 @@ img {
 
 
 article{
-
-  -webkit-column-break-after: always;
+position: relative;
 
   -webkit-column-count: 2;
   -moz-column-count: 2;
