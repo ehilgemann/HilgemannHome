@@ -198,15 +198,48 @@ position: relative;
 }
 
 /*Good place for formatting header on the main page*/
+
+/*
 .masthead {
   padding: 0px 0;
-  border-top: 10px solid rgb(151, 183, 219);
+  border-top: 30px solid rgb(151, 183, 219);
   @include mobile {
     text-align: center;
   }
   overflow: hidden;
   width: 100%;
   margin: 0 auto 0 auto;
+}
+*/
+
+nav {
+  //git afloat: right;
+  text-align: center;
+  margin-top: 0px; // @TODO: Vertically middle align
+  margin-bottom: 0px;
+  font-family: $helveticaNeue;
+  font-size: 24px;
+  width: 100%;
+  background-color: rgb(151, 183, 219);
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    color: $darkGray;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
 }
 
 
