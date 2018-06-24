@@ -1,12 +1,91 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-<article class="page">
+    {% include meta.html %}
 
-  <h1>{{ page.title }}</h1>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  
+	
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-  <div class="entry">
-    {{ content }}
-  </div>
-</article>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  	
+	{% include og.html %}
+
+	<!-- OG data for homepage 
+    <meta property="og:image" content="{{ site.url }}/images/Evanhikeblue.jpg" />
+    <meta property="og:type" content="website" />
+	<meta property="
+	<meta property="og:title" content="Evan's Webite" />
+	<meta property="og:url" content="http://www.evanhilgemann.com" />
+	-->
+  </head>
+<!--so this is all the styling for the header of the main page-->
+  <body>
+
+  <div class="wrapper-masthead">
+
+    <div class="container">
+
+	  <header class="masthead clearfix">
+
+
+<!--
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+ -->
+
+	  
+	  </header>
+	 
+    </div>
+
+    </div>
+
+    <div id="main" role="main" class="container">
+
+<div class="sidenav">
+  <a href="{{ site.baseurl }}/index">Home</a>
+  <a href="{{ site.baseurl }}/bio">Bio</a>
+</div>
+
+	{{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+		  
+		  <p align="center">  Anything sound interesting? Contact me: 
+
+			<img src="{{ site.baseurl }}/images/email.png" width="219" height="25" style="margin: -5px 0px">
+		 
+		 <br />
+		  {% include svg-icons.html %}
+		 <br />
+		 <font size="2"> <a href="https://github.com/ehilgemann/HilgemannHome">source</a> </font>
+		  
+		   </p>
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+
+  </body>
+</html>
