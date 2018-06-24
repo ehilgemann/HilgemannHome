@@ -247,11 +247,11 @@ nav {
 .sidenav {
     height: 150px;
     width: 160px;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 10px;
-    left: 931.5px;
-    background-color: gi#FEFEFE;
+    left: 940px;
+    background-color: #FEFEFE;
     overflow-x: hidden;
     padding-top: 0px;
 }
