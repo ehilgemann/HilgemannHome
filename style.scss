@@ -245,15 +245,15 @@ nav {
 */
 
 .sidenav {
-    height: 100%;
+    height: 150px;
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
+    top: 10px;
+    left: 931.5px;
+    background-color: gi#FEFEFE;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .sidenav a {
